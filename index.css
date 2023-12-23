@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #191919;
+}
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+.header_container {
+    height: 119px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 777px;
+}   
+.navigation_container {
+    width: 1340px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation_container img {
+    width: 160px;
+    height: 33px;
+}
+.nav_link_block {
+    display: flex;
+    width: 403px;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+}
+.nav_link {
+    text-decoration: none;
+    color: #FFF;
+}
+.nav_link:hover {
+    color: #118da8;
+}
+
+.main_container {
+    width: 1440px;
+    height: 913px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_block {
+    width: 1340px;
+    height: 873px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_block_img {
+    
+}
+.main_block_text {
+    width: 650px;
+    height: 873.438px;
+    display: flex;
+    align-items: center;
+}
+.block_text_clear {
+    width: 530px;
+    height: 25%;
+}
+.block_text_contetnt {
+    width: 530px;
+    height: 50%;
+    box-sizing: border-box;
+}
+.block_text_soucials_icons {
+    width: 530px;
+    height: 25%;
+}
+.icons_block {
+    width: 289px;
+    height: 72px; 
+}
+.icons_block_text {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.icons_block_image {
+    display: flex;
+
+}
+.icons_block_img {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.block_text_contetnt_p {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 125.714% */
+    letter-spacing: 3.2px;
+    box-sizing: border-box;
+}
+.block_text_contetnt_p span {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 110% */
+    letter-spacing: 3.2px;
+}
+.main_block_img img {
+    width: 650px;
+    height: 873px;
+    border-radius: 12px;
+    
+}
+.block_text {
+    width: 530px;
+    height: 610.578px;
+}
